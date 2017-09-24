@@ -1,0 +1,17 @@
+{
+  "name": "school-cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "handlebars": "^4.0.10",
+    "marked": "^0.3.6",
+    "mermaid": "^7.1.0"
+  }
+}

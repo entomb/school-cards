@@ -1,0 +1,138 @@
+
+
+
+body{
+	font-family: Helvetica, Arial
+	color:#555;
+}
+
+h1,h2,h3,h4,h5{
+	color: #222
+}
+
+h1{
+	border-bottom: 1px solid #666;
+	padding:.2em;
+	font-size: 1.4em;
+}
+h2{
+	font-size: 1.2em;
+}
+h3{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+pre {
+	margin: 0px;
+	overflow: hidden;
+}
+pre .mermaid {
+	margin-bottom: -30px;
+}
+pre .mermaid.large {
+	zoom:1.2;
+}
+
+pre .mermaid.small {
+	zoom:.7;
+	margin-bottom: -55px;
+}
+
+.title{
+	background: #ffef96;
+	padding: .5em;
+	border-bottom:3px solid #f4e1d2;
+	width: 100%;
+	display: block;
+	height: 2em;
+	margin-left: -1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-weight: normal !important;
+	font-size:1.2em;
+}
+
+.title h1{
+	border-bottom: none;
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	float: left
+}
+.title .num{
+	float: right;
+	color: #777;
+	font-family: monospace;
+}
+
+table{
+	margin-left: 1em;
+}
+
+
+.scramble{
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top:.7em;
+	margin-bottom:.7em;
+}
+
+.scramble span.word{
+	display: inline-block;
+	margin: .2rem;
+}
+
+blockquote{
+
+	color: #888;
+}
+
+
+pre.poema{
+	font-family: Helvetica, Arial;
+	line-height: 1.2em;
+
+
+}
+
+table th,
+table td{
+	padding: .35em;
+}
+
+p{
+	text-align: justify;
+	line-height: 1.4em;
+}
+
+
+
+
+
+
+table th{
+	background-color: #ffef96;
+	border: 1px solid #999;
+	border-bottom: 2px solid #666;
+}
+tr:nth-child(even) td {background-color: #EEE}
+tr:nth-child(odd) td {background-color: #e2e2e2}
+
+table td.line{
+	width: 200px;
+	background: none !important;
+	border-bottom: none !important;
+	border-top: none !important; 
+}
+
+table tr{
+	
+}
+
+table td{
+	border: 1px solid #555;
+}
+
+

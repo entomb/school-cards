@@ -14,6 +14,7 @@ const words = {
 	ortografia: "Ortografia",
 	matematica: "Matemática",
 	gramatica: "Gramática",
+	nums: "Números e Operações",
 
 }
 
@@ -70,7 +71,7 @@ marked.setOptions({
 
 function getCards(){
 	return new Promise((accept, reject) => {
-		glob("cards/portugues/**/*.md", function (err, files) {
+		glob("cards/**/*.md", function (err, files) {
 			if(err) reject(err)
 			accept(files)
 		})
